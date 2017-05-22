@@ -1,0 +1,26 @@
+{
+    "name": "appzz/sphinxql",
+    "description": "Mysqli interface to SphinxQL",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": [
+        "sphinx",
+        "sphinxql",
+        "mysql"
+    ],
+    "homepage": "https://github.com/a-pp-zz/sphinxql.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CoolSwitcher",
+            "email": "ds@appzz.pw",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">5.3.3"
+    },
+    "autoload": {
+        "psr-4": {"AppZz\\DB\\": "src/"}
+    }
+}
